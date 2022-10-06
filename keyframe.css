@@ -1,0 +1,43 @@
+body {
+    background: #333;
+}
+
+.box {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    /* animation-delay: 2s; */
+    /* animation-direction: alternate; */
+     /* animation-timing-function: ease-in; */
+     animation-fill-mode: forwards; 
+}
+
+/* @keyframes myanimation{
+    0%{background-color: #fff; left: 0px; top: 0px;
+    border-radius: 0 0 0 0;}
+    25%{background-color: #f00;left: 300px; top: 0px;
+        border-radius: 50% 0 0 0;}
+    50%{background-color: #0f0;left: 300px; top: 300px;
+        border-radius: 50% 50% 0 0;}
+    75%{background-color: #00f;left: 0px; top: 300px;
+        border-radius: 50% 50% 50% 0;}
+    100%{background-color: #fff;left: 0px;top: 0px;
+        border-radius: 50% 50% 50% 50%;}
+} */
+
+@keyframes myanimation{
+    0%{background-color: #fff; 
+    border-radius: 0 0 0 0;}
+    25%{background-color: #f00;
+        border-radius: 50% 0 0 0;}
+    50%{background-color: #0f0;
+        border-radius: 50% 50% 0 0;}
+    75%{background-color: #00f;
+        border-radius: 50% 50% 50% 0;}
+    100%{background-color: #fff;
+        border-radius: 50% 50% 50% 50%;}
+}
